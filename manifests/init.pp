@@ -6,6 +6,6 @@
 class mysql_workbench {
   package { 'mysql_workbench':
     provider => 'appdmg',
-    source   => 'https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-6.3.4-osx-x86_64.dmg'
+    source   => 'https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-6.3.5-osx-x86_64.dmg'
   }
 }
